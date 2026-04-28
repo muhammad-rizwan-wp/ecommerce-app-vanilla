@@ -19,6 +19,8 @@ body {
     width: 75%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 10px;
 }
 
 .card {
@@ -47,4 +49,33 @@ button {
     width: 100%;
     padding: 5px;
     cursor: pointer;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.buttons-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.controls button {
+    width: 30px;
+}
+
+input#search {
+    min-width: 250px;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
 }
